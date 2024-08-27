@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="811561a4-bb69-4790-a764-721de184bd8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +29,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,6 +87,7 @@
       <workItem from="1724456275349" duration="46000" />
       <workItem from="1724456724168" duration="229000" />
       <workItem from="1724724426100" duration="1198000" />
+      <workItem from="1724730020100" duration="298000" />
     </task>
     <servers />
   </component>
