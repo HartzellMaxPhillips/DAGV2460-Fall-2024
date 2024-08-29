@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811561a4-bb69-4790-a764-721de184bd8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../2Dgame/Assets/TriggerEventBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../2Dgame/Assets/TriggerEventBehavior.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FloatData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IntData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/GreenTest.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/GreenTest.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +88,7 @@
       <workItem from="1724456724168" duration="229000" />
       <workItem from="1724724426100" duration="1198000" />
       <workItem from="1724730020100" duration="1009000" />
-      <workItem from="1724884190569" duration="2541000" />
+      <workItem from="1724884190569" duration="3133000" />
     </task>
     <servers />
   </component>
