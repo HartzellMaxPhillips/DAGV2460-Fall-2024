@@ -1,4 +1,4 @@
-//Transparency: This is copied from the video in the module piece by piece.
+//Transparency: This is copied from the video in the module.
 using UnityEngine;
 
 [CreateAssetMenu]
