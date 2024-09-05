@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9aa734935b44c664fa6a6a5e4659646d, type: 3}
   m_Name: CollectedPellets
   m_EditorClassIdentifier: 
-  value: 0
+  value: 10

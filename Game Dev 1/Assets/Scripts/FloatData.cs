@@ -5,8 +5,8 @@ public class FloatData : ScriptableObject
 {
     public float value;
 
-    public void UpdateValue()
+    public void UpdateValue(float num)
     {
-        
+        value += num;
     }
 }
