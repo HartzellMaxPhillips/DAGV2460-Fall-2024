@@ -9,4 +9,5 @@ public class TriggerEventBehavior : MonoBehaviour
     {
         triggerEnterEvent.Invoke();
     }
+    
 }
