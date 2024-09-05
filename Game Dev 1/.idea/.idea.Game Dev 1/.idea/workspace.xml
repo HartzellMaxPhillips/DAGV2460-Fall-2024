@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="811561a4-bb69-4790-a764-721de184bd8b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Game Dev 1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectedPellets.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CollectedPellets.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubeMove.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CubeMove.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Health.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Pellet.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Pellet.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TriggerEventBehavior.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +31,7 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MonoEventsBehavior.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -113,7 +108,7 @@
       <workItem from="1724730020100" duration="1009000" />
       <workItem from="1724884190569" duration="3133000" />
       <workItem from="1725562488622" duration="1976000" />
-      <workItem from="1725564787222" duration="1636000" />
+      <workItem from="1725564787222" duration="2515000" />
     </task>
     <servers />
   </component>
