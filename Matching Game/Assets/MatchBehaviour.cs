@@ -11,7 +11,7 @@ public class MatchBehaviour : MonoBehaviour
         if (tempObj == null)
             return;
         var otherID = tempObj.idObj;
-        if (otherID != idObj)
+        if (otherID == idObj)
         {
             matchEvent.Invoke();
         }
