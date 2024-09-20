@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -7126950525823660589}
   - component: {fileID: 8140074842681234402}
   - component: {fileID: -223352252985410751}
+  - component: {fileID: 6587226394447260110}
   - component: {fileID: 3517372768245453545}
   m_Layer: 6
   m_Name: Dot
@@ -133,7 +134,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -196,6 +197,23 @@ MonoBehaviour:
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &6587226394447260110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486106135570987434}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b77ed6d617983b2499c0f50682b76e57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  idObj: {fileID: 11400000, guid: 3fba4c1863239a243bdfd723312a58e5, type: 2}
+  StartEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  colorIDDataListObj: {fileID: 11400000, guid: a54a66bd9275c294ea8a178d17f5b667, type: 2}
 --- !u!114 &3517372768245453545
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5d21464e97dce504394a21c2f1c4781c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  idObj: {fileID: 0}
+  idObj: {fileID: 11400000, guid: 3fba4c1863239a243bdfd723312a58e5, type: 2}
   matchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -218,4 +236,4 @@ MonoBehaviour:
   noMatchDelayedEvent:
     m_PersistentCalls:
       m_Calls: []
-  colorIDDataListObj: {fileID: 0}
+  colorIDDataListObj: {fileID: 11400000, guid: a54a66bd9275c294ea8a178d17f5b667, type: 2}
