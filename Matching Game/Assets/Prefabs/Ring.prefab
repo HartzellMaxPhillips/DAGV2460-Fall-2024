@@ -180,7 +180,19 @@ MonoBehaviour:
   idObj: {fileID: 11400000, guid: 3fba4c1863239a243bdfd723312a58e5, type: 2}
   matchEvent:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: -4789715860003881544}
+        m_TargetAssemblyTypeName: ColorMatchBehaviour, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2064972216707724818}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.SpriteRenderer, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   noMatchEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -202,6 +214,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startEvent:
     m_PersistentCalls:
+      m_Calls: []
+  awakeEvent:
+    m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 8140074842681234402}
         m_TargetAssemblyTypeName: SpriteBehaviour, Assembly-CSharp
@@ -215,9 +230,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  awakeEvent:
-    m_PersistentCalls:
-      m_Calls: []
   disableEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -252,7 +264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1486106135570987434, guid: baf686644be8a194bb2c0903816c4372, type: 3}
       propertyPath: m_Name
-      value: Dot
+      value: HiddenDot
       objectReference: {fileID: 0}
     - target: {fileID: 1706841308646012338, guid: baf686644be8a194bb2c0903816c4372, type: 3}
       propertyPath: m_LocalScale.x
@@ -310,6 +322,10 @@ PrefabInstance:
       propertyPath: m_Color.a
       value: 0.0627451
       objectReference: {fileID: 0}
+    - target: {fileID: 7694395583663641537, guid: baf686644be8a194bb2c0903816c4372, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: -7126950525823660589, guid: baf686644be8a194bb2c0903816c4372, type: 3}
     - {fileID: -223352252985410751, guid: baf686644be8a194bb2c0903816c4372, type: 3}
@@ -317,10 +333,16 @@ PrefabInstance:
     - {fileID: 3517372768245453545, guid: baf686644be8a194bb2c0903816c4372, type: 3}
     - {fileID: 8073328360163324296, guid: baf686644be8a194bb2c0903816c4372, type: 3}
     - {fileID: -3864761771225145435, guid: baf686644be8a194bb2c0903816c4372, type: 3}
+    - {fileID: 7694395583663641537, guid: baf686644be8a194bb2c0903816c4372, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: baf686644be8a194bb2c0903816c4372, type: 3}
+--- !u!212 &2064972216707724818 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 7499939059525236631, guid: baf686644be8a194bb2c0903816c4372, type: 3}
+  m_PrefabInstance: {fileID: 8411989204153532805}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7138918701682717751 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1706841308646012338, guid: baf686644be8a194bb2c0903816c4372, type: 3}
