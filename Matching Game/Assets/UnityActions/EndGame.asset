@@ -9,7 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eafe2278c6af48d49af95b2bc79c26ac, type: 3}
-  m_Name: HighScore
+  m_Script: {fileID: 11500000, guid: 8c97ae3265c6b864e8f56cb557d1c8c0, type: 3}
+  m_Name: EndGame
   m_EditorClassIdentifier: 
-  value: 110
