@@ -501,6 +501,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &650976084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346315593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5755f693de23074694adc3b937d3e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameActionObj: {fileID: 11400000, guid: e203bb9b6949a8a488ddf68bb5f2ed57, type: 2}
+  onRaiseEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 650976079}
+        m_TargetAssemblyTypeName: CoroutineBehavior, Assembly-CSharp
+        m_MethodName: set_CanRun
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &829810252
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,6 +987,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 11400000, guid: bcb70767e872d1047bfe90f305273d1c, type: 2}
           m_ObjectArgumentAssemblyTypeName: IntData, Assembly-CSharp
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 650976079}
+        m_TargetAssemblyTypeName: CoroutineBehavior, Assembly-CSharp
+        m_MethodName: StartCounting
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -1660,6 +1700,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 3836611472080450361, guid: b05204b697e46c743a95ae9e1404842a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 650976082}
+    - targetCorrespondingSourceObject: {fileID: 3836611472080450361, guid: b05204b697e46c743a95ae9e1404842a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 650976084}
   m_SourcePrefab: {fileID: 100100000, guid: b05204b697e46c743a95ae9e1404842a, type: 3}
 --- !u!1 &1262593368
 GameObject:
