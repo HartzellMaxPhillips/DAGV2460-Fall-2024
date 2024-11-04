@@ -9,14 +9,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6f0b0944e5ddd48975bd484d7a66ba, type: 3}
-  m_Name: PlayerMovement
+  m_Script: {fileID: 11500000, guid: b56757406788b634680eaf502632eba3, type: 3}
+  m_Name: PlayerHealth
   m_EditorClassIdentifier: 
-  inputs: {x: 0, y: 0, z: 0}
-  hAxis: Horizontal
-  vAxis: Vertical
-  speed: 5
-  gravity: 0.2
-  jumpForce: 7
-  jumpCount: 0
-  jumpCountMax: 2
+  value: 0.5999999
+  minValue: 0
+  maxValue: 1
+  valueOutOfRange:
+    m_PersistentCalls:
+      m_Calls: []
+  onValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
