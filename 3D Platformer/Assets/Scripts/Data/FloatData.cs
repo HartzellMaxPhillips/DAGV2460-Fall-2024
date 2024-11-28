@@ -35,6 +35,11 @@ public class FloatData : NameId
     {
         maxValue = amount;
     }
+    
+    public void SetValue(float amount)
+    {
+        Value = amount;
+    }
 
     public void UpdateValue(FloatData data)
     {
