@@ -5,7 +5,7 @@ using UnityEngine.Serialization;
 [CreateAssetMenu(menuName = "Single Variables/FloatData")]
 public class FloatData : NameId
 {
-    [SerializeField] private float value,  minValue, maxValue;
+    [SerializeField] public float value,  minValue, maxValue;
 
     [FormerlySerializedAs("minValueEvent")] public UnityEvent<float> valueOutOfRange;
     [FormerlySerializedAs("updateValueEvent")] public UnityEvent onValueChanged;
@@ -25,6 +25,16 @@ public class FloatData : NameId
     {
         Value += amount;
     }
+    
+    public void UpdateMaxValue(float amount)
+    {
+        maxValue += amount;
+    }
+    
+    public void SetMaxValue(float amount)
+    {
+        maxValue = amount;
+    }
 
     public void UpdateValue(FloatData data)
     {
@@ -35,7 +45,11 @@ public class FloatData : NameId
     {
         Value = data.Value;
     }
-
+    
+    public void UpdateValueToMax(FloatData data)
+    {
+        Value = data.maxValue;
+    }
     private void CheckValueRange()
     {
         if (!(Value < minValue) && !(Value > maxValue)) return;

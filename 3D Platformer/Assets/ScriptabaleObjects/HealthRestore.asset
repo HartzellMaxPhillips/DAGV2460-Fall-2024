@@ -9,14 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb6f0b0944e5ddd48975bd484d7a66ba, type: 3}
-  m_Name: PlayerMovement
+  m_Script: {fileID: 11500000, guid: 1c5dd3df83d1d3d4680de81465a83869, type: 3}
+  m_Name: HealthRestore
   m_EditorClassIdentifier: 
-  inputs: {x: 0, y: 0, z: 0}
-  hAxis: Horizontal
-  vAxis: Vertical
-  speed: 10
-  gravity: 0.14
-  jumpForce: 18
-  jumpCount: 0
-  jumpCountMax: 2

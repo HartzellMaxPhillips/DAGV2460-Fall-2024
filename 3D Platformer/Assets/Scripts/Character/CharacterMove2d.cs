@@ -28,4 +28,14 @@ public class CharacterMove2d : CharacterPattern
   
         controller.Move(positionDirection*Time.deltaTime);
     }
+    
+    public void UpdateJumpCount(int amount)
+    {
+        jumpCount += amount;
+    }
+    
+    public void UpdateJumpCountMax(int amount)
+    {
+        jumpCountMax += amount;
+    }
 }

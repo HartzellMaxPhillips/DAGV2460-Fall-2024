@@ -17,8 +17,8 @@ public class MonoEventBehaviours : MonoBehaviour
         yield return new WaitForSeconds(holdTime);
         onCallEvent.Invoke();
     }
-    
-    private void Awake()
+
+    protected void Awake()
     {
         awakeEvent.Invoke();
     }
