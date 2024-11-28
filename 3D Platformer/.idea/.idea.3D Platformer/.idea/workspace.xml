@@ -6,8 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="808a82dc-aece-4cbb-8a0c-d6b4840a73ce" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.3D Platformer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.3D Platformer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DamageCube.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DamageCube.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptabaleObjects/IsPlayerDead.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ScriptabaleObjects/IsPlayerDead.asset.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Data/FloatData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Data/FloatData.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Behaviours/TransformToVector3Behaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Data/SimpleBoolData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Documents/Tools/ArtisanDream.Tools/Bahaviours/MonoEventBehaviours.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/../../../../../Documents/Tools/ArtisanDream.Tools/Bahaviours/MonoEventsExpandedBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
@@ -110,7 +113,7 @@
       <workItem from="1732497340702" duration="3290000" />
       <workItem from="1732585010236" duration="9157000" />
       <workItem from="1732597915768" duration="3194000" />
-      <workItem from="1732765062090" duration="7644000" />
+      <workItem from="1732765062090" duration="11516000" />
     </task>
     <servers />
   </component>

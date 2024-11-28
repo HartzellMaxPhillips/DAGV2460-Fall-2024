@@ -9,15 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b56757406788b634680eaf502632eba3, type: 3}
-  m_Name: PlayerHealth
+  m_Script: {fileID: 11500000, guid: 31efc1caad42a5e4a9bce0ae61f0ba66, type: 3}
+  m_Name: PlayerRespawn
   m_EditorClassIdentifier: 
-  value: 0.9
-  minValue: 0
-  maxValue: 1
-  valueOutOfRange:
-    m_PersistentCalls:
-      m_Calls: []
-  onValueChanged:
-    m_PersistentCalls:
-      m_Calls: []
+  value: {x: 0, y: 0, z: 0}
